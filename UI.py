@@ -206,7 +206,7 @@ def download_models():
           downloadModel(m)
 
   # download VAEs
-  #!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/swl-models/ClearVAE/resolve/main/ClearVAE.safetensors -d {root}/ui/models/VAE -o ClearVAE.safetensors
+  get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/swl-models/ClearVAE/resolve/main/ClearVAE.safetensors -d {root}/ui/models/VAE -o ClearVAE.safetensors')
   #!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d {root}/ui/models/VAE -o vae-ft-mse-840000-ema-pruned.ckpt
   get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime.ckpt -d {root}/ui/models/VAE -o kl-f8-anime2.ckpt')
   get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/Rorimessy/artsy/resolve/main/vqgan_cfw_00011_vae_only.ckpt -d {root}/ui/models/VAE -o vqgan_cfw_00011_vae_only.ckpt')
