@@ -1,6 +1,6 @@
 {
     "txt2img/Prompt/visible": true,
-    "txt2img/Prompt/value": "masterpiece, ultra detailed, best quality, souryuu asuka langley, ",
+    "txt2img/Prompt/value": "masterpiece, ultra detailed, best quality, 1girl, souryuu asuka langley, blue eyes, black metal album cover, expressive art, gothic, closed mouth, black leather, mecha robot, wires, maze, unsettling, scenery, disturbing,  <lora:Eva_90s:0.3>,  <lora:AsukaLangleySouryuuV2:0.5>",
     "txt2img/Negative prompt/visible": true,
     "txt2img/Negative prompt/value": "(worst quality, low quality:1.2), lowres, blurry, greyscale, cross-eyed, facemask, extra fingers, missing fingers, poorly rendered hands, mutation, deformed iris, deformed pupils, asymmetric, watermark, cropped, FastNegativeEmbedding",
     "txt2img/Styles/visible": true,
